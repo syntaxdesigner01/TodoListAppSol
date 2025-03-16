@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# Todo List Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is a simple Todo List smart contract written in Solidity. It allows users to create, complete, and remove tasks on the Ethereum blockchain. The contract keeps track of tasks using a mapping and emits events for task creation, completion, and removal.
 
-Try running some of the following tasks:
+## Features
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+- Create new tasks
+- Mark tasks as completed
+- Remove tasks
+- Retrieve individual tasks
+- Retrieve all tasks
+
